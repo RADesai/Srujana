@@ -1,0 +1,24 @@
+.logo {
+  width: 100%;
+}
+h2 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.details {
+  color: #f1f4ff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sponsors {
+  background-color: #fff;
+  border-radius: 5px;
+  border-top: 5px solid #E4C749;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+.sponsor {
+  padding: 5px;
+}

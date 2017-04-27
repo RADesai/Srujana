@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #02164C;
+}
+
+.orange {
+  border-color: #F10766;
+}
+.yellow {
+  border-color: #E4C749;
+}
+.blue {
+  border-color: #02164C;
+}
+
+img {
+  width: 100%;
+}
+
+.date {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+}
+.name {
+  font-family: 'Timmana', sans-serif;
+  font-size: 1.8em;
+}
