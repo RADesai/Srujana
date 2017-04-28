@@ -1,0 +1,33 @@
+h2 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+h4 {
+  color: #fff;
+  font-family: 'Timmana', sans-serif;
+}
+.name {
+  transition: .3s ease-out;
+}
+
+.member hr {
+  width: 0%;
+}
+
+.member:hover hr {
+  border-color: #F10766;
+  width: 100%;
+  /*animation: slide 5s ease-in-out infinite alternate;*/
+}
+
+@keyframes slide {
+  0% {
+    border-color: #ffd877;
+  }
+  50% {
+    border-color: #F10766;
+  }
+  100% {
+    border-color: #f1f4ff;
+  }
+}

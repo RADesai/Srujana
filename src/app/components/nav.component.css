@@ -25,11 +25,9 @@
 .home:focus {
   outline: none;
   cursor: default;
-}
-.nav:focus {
   color: #F10766;
-  /*border-bottom: 2px solid #F10766;*/
 }
+
 .home {
   padding-top: 5px;
   /*transition: .3s ease-out;*/
@@ -47,6 +45,6 @@
     border-color: #F10766;
   }
   100% {
-    border-color: #E4C749;
+    border-color: #ffd877;
   }
 }

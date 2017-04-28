@@ -2,20 +2,23 @@
 body {
   background-color: #02164C;
 }
+img {
+  width: 100%;
+}
+hr {
+  transition: .3s ease-out;
+}
 
 .orange {
   border-color: #F10766;
 }
 .yellow {
-  border-color: #E4C749;
+  border-color: #ffd877;
 }
 .blue {
   border-color: #02164C;
 }
 
-img {
-  width: 100%;
-}
 
 .date {
   font-family: 'Montserrat', sans-serif;

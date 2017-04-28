@@ -8,6 +8,8 @@ import { NavComponent } from './components/nav.component';
 import { HomeComponent } from './components/home.component';
 import { AboutComponent } from './components/about.component';
 import { EventsComponent } from './components/events.component';
+import { TeamComponent } from './components/team.component';
+import { ContactComponent } from './components/contact.component';
 import { routing } from './app.routing';
 
 @NgModule({
@@ -16,7 +18,9 @@ import { routing } from './app.routing';
     NavComponent,
     HomeComponent,
     AboutComponent,
-    EventsComponent
+    EventsComponent,
+    TeamComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

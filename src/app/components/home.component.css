@@ -12,8 +12,9 @@ h2 {
 
 .sponsors {
   background-color: #fff;
+  /*border-top: 5px solid #E4C749;*/
   border-radius: 5px;
-  border-top: 5px solid #E4C749;
+  border-bottom: 5px solid #E4C749;
   padding: 5px;
   font-family: 'Montserrat', sans-serif;
   color: #000;

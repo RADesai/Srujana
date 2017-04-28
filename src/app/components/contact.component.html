@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="row heading">
+    <div class="col-xs-5 col-xs-offset-2">
+      <h2>CONTACT US</h2><hr class="orange">
+    </div>
+    <div class="col-xs-3 text-right">
+      <address>
+        <strong>Srujana LLC</strong><br>
+        16 Concord Drive<br>
+        Somerset, NJ 08873<br>
+        srujanashow@gmail.com<br>
+        <abbr title="Phone">P:</abbr> (973) 652-6607
+      </address>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+      <!-- <hr class="yellow"> -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+      <form>
+        <label>Name:</label><br>
+        <input type="text" name="name" placeholder="Ex -> Alan Smith" required [(ngModel)]="name" /><br><br>
+        <label>Email:</label><br>
+        <input type="text" name="email" placeholder="Ex -> alansmith@example.com" required [(ngModel)]="email" /><br><br>
+        <label>Subject:</label><br>
+        <input type="text" name="message" placeholder="Ex -> Sponsorship Opportunities" required [(ngModel)]="subject" /><br><br>
+        <label>Message:</label><br>
+        <textarea name="message" rows="6" placeholder="Ex -> Please call me at +1 (555) 123-4567 when you have time to talk!" required [(ngModel)]="message"></textarea><br>
+        <hr class="yellow">
+        <div class="row">
+          <div class="col-xs-6 text-left">
+            <div class="well well-sm text-center send" title="Submit Your Message!">
+              <span class="glyphicon glyphicon-send"></span>
+            </div>
+          </div>
+          <div class="col-xs-6 text-right">
+            <div class="well well-sm text-center clear" title="Reset Your Message!">
+              <span class="glyphicon glyphicon-trash"></span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
