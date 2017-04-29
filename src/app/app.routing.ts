@@ -1,11 +1,11 @@
 import {ModuleWithProviders} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 
-import {HomeComponent} from './components/home.component';
-import {AboutComponent} from './components/about.component';
-import {EventsComponent} from './components/events.component';
-import {TeamComponent} from './components/team.component';
-import {ContactComponent} from './components/contact.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { EventsComponent } from './components/events/events.component';
+import { TeamComponent } from './components/team/team.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const AppRoutes: Routes = [
   {
