@@ -12,6 +12,11 @@
 .sponsors {
   background-color: #fff;
   border-radius: 5px;
-  opacity: 0.9;
   color: #021A59;
+}
+.sponsor hr {
+  opacity: 0;
+}
+.sponsor:hover hr {
+  opacity: 1.0;
 }
