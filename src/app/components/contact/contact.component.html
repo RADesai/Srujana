@@ -16,21 +16,21 @@
 
   <div class="row">
     <div class="col-md-8 col-md-offset-2 col-xs-12">
-      <div *ngIf="err" class="alert alert-danger">
-        <div *ngIf="err">
+      <div *ngIf="err">
+        <div *ngIf="!fieldCheck()" class="alert alert-danger">
           <strong>*Please fill out the following fields:</strong>
-        </div>
-        <div [hidden]="name.length !== 0">
-          Name is required
-        </div>
-        <div [hidden]="email.length !== 0">
-          Email is required
-        </div>
-        <div [hidden]="subject.length !== 0">
-          Subject is required
-        </div>
-        <div [hidden]="message.length !== 0">
-          Message is required
+          <div [hidden]="name.length !== 0">
+            Name is required
+          </div>
+          <div [hidden]="email.length !== 0">
+            Email is required
+          </div>
+          <div [hidden]="subject.length !== 0">
+            Subject is required
+          </div>
+          <div [hidden]="message.length !== 0">
+            Message is required
+          </div>
         </div>
       </div>
       <div *ngIf="sent" class="alert alert-success">

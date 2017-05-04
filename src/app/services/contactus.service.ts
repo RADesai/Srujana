@@ -12,8 +12,8 @@ export class ContactUsService {
 
   sendEmail(data) {
     let body = JSON.stringify(data);
-    console.log('data:', data);
-    console.log('Email body:', body);
+    // console.log('data:', data);
+    // console.log('Email body:', body);
     let headers = new Headers({ 'Content-Type': 'application/json' });
     let options = new RequestOptions({ headers: headers });
     return this.http.post('https://formspree.io/srujanashow@gmail.com', data, options)
