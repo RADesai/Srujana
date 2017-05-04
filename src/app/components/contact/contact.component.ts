@@ -37,7 +37,6 @@ export class ContactComponent {
       console.log('Sending');
       this.contactService.sendEmail(data);
       this.resetFields();
-      // this.message = "Thanks for your message, we'll get back to you ASAP!"
       this.sent = true;
     } else {
       console.log('Bad fields, not sending');
