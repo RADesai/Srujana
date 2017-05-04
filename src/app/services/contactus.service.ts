@@ -16,7 +16,7 @@ export class ContactUsService {
     console.log('Email body:', body);
     let headers = new Headers({ 'Content-Type': 'application/json' });
     let options = new RequestOptions({ headers: headers });
-    return this.http.post('https://formspree.io/srujanashow@gmail.com', data, options)
+    return this.http.post('https://formspree.io/rajdesai94@gmail.com', data, options)
     .map((res: Response) => console.log('Res:',res))
     .catch((error:any) => Observable.throw(error.json().error || 'Server error'))
     .subscribe();

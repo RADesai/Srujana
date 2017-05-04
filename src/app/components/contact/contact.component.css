@@ -7,6 +7,11 @@ address {
   color: #f1f4ff;
 }
 
+.alert-danger {
+  background-color: transparent;
+  border: 1px solid #ee3017;
+}
+
 label {
   font-family: 'Montserrat', sans-serif;
   color: #ffd877;
