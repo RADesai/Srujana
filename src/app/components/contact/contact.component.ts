@@ -41,6 +41,7 @@ export class ContactComponent {
     } else {
       console.log('Bad fields, not sending');
       this.err = true;
+      this.sent = false;
     }
 
   }
