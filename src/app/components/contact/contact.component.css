@@ -56,13 +56,13 @@ input:focus, textarea:focus {
   color: #63D297;
   transition: .3s ease-out;
 }
-.glyphicon-send:hover {
+.well:hover .glyphicon-send {
   transform: translateX(3px) translateY(-3px);
 }
 .glyphicon-trash {
   color: #EE3017;
   transition: .3s ease-out;
 }
-.glyphicon-trash:hover {
+.well:hover .glyphicon-trash {
   transform: translateY(3px);
 }

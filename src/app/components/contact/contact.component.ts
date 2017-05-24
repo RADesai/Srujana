@@ -24,6 +24,7 @@ export class ContactComponent {
     this.sent = false;
   }
 
+  // Formspree emails
   emailUs() {
     let data = {
       Name: this.name,
@@ -43,7 +44,6 @@ export class ContactComponent {
       this.err = true;
       this.sent = false;
     }
-
   }
 
   fieldCheck() {
@@ -59,4 +59,17 @@ export class ContactComponent {
     this.subject = '';
     this.message = '';
   }
+
+  // Mailchimp subscriptions
+  // subscribe() {
+  //   let data = {
+  //     email_address: this.email,
+  //     status: 'subscribed'
+  //   };
+  //
+  //   console.log('Subscribing:')
+  //   console.log(data);
+  //   this.contactService.emailSubscribe(data);
+  //   this.email = '';
+  // }
 }
