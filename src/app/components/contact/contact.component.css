@@ -10,6 +10,19 @@ a {
   text-decoration: none;
 }
 
+.mailLink {
+  transition: .3s ease-out;
+}
+.mailLink img {
+  width: 65%;
+}
+.mailLink hr {
+  width: 0%;
+}
+.mailLink a:hover ~ hr {
+  width: 60%;
+}
+
 .alert-danger {
   background-color: transparent;
   border: 1px solid #ee3017;
