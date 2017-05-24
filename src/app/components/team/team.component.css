@@ -28,8 +28,7 @@ h5 {
 
 .member:hover hr {
   border-color: #F10766;
-  width: 100%;
-  /*animation: slide 5s ease-in-out infinite alternate;*/
+  width: 65%;
 }
 
 @keyframes slide {

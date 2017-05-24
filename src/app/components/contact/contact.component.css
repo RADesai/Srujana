@@ -6,6 +6,9 @@
 address {
   color: #f1f4ff;
 }
+a {
+  text-decoration: none;
+}
 
 .alert-danger {
   background-color: transparent;
@@ -27,10 +30,6 @@ input, textarea {
   padding: 5px;
   border: 1px solid #f1f4ff;
   outline: none;
-}
-input:hover, textarea:hover {
-  /*border-color: #F10766;*/
-  /*color: #F10766;*/
 }
 input:focus, textarea:focus {
   border: 1px solid #ffd877;
@@ -65,4 +64,12 @@ input:focus, textarea:focus {
 }
 .well:hover .glyphicon-trash {
   transform: translateY(3px);
+}
+
+.mail {
+  font-family: 'Montserrat', sans-serif;
+  color: #f1f4ff;
+}
+.well.mail:hover {
+  border-color: #356CA7;
 }
