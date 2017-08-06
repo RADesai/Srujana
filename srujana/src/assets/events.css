@@ -1,0 +1,28 @@
+.container {
+  color: #f1f4ff;
+}
+.heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  box-shadow: 2px 3px 5px 0px #000;
+}
+
+.poster {
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.sponsors {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #021A59;
+  opacity: 0.8;
+}
+.sponsor hr {
+  opacity: 0;
+}
+.sponsor:hover hr {
+  opacity: 1.0;
+}

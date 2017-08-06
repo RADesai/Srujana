@@ -1,0 +1,36 @@
+h2, h3 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.name {
+  transition: .3s ease-out;
+}
+
+.member hr {
+  width: 0%;
+}
+
+.member h3 {
+  opacity: 0.65;
+}
+.member:hover h3 {
+  opacity: 1;
+}
+
+.member:hover hr {
+  border-color: #F10766;
+  width: 65%;
+}
+
+@keyframes slide {
+  0% {
+    border-color: #ffd877;
+  }
+  50% {
+    border-color: #F10766;
+  }
+  100% {
+    border-color: #f1f4ff;
+  }
+}
